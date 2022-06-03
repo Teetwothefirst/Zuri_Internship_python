@@ -6,6 +6,11 @@
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
+
+    #First Collect Users input:
+    user_input1 = str(input("Enter your first Anagram check word: "))
+    user_input1 = str(input("Enter your Second Anagram check word: "))
+    
     if (sorted(word) == sorted(anagram)):
         return True
     else: 
