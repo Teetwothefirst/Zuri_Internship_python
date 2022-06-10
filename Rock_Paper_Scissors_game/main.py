@@ -18,8 +18,10 @@ if player_input == "SCISSORS" or player_input == "Scissors" or player_input == "
     player_input = "SCISSORS"
 
 for i in list_of_possible_choice:
-    print (i)
-    
+    print (i) 
+    print (i[0])
+    print (i[1])
+    print (i[2])
     if player_input != i:
         print("The option you chose is invalid, try again")
     
